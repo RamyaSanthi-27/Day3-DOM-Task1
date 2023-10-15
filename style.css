@@ -1,0 +1,68 @@
+
+    
+    .container{
+    position:relative;
+    width:100%;
+    
+    
+    }
+    .calsi{
+    width:350px;   
+    margin:100px auto;
+    text-align:left;
+    background:#807979;
+    
+    }
+    .calsi h1{
+    font-size:40px;
+    font-family:calibri;
+    font-weight:bold;
+    color:white;
+    text-transform:cepitalize;
+    padding:8px 0px;
+    text-align:center;
+    width:100%;
+    background:#807979;
+    margin:0 auto;
+    }
+    #result{
+    position:relative;
+    width:100%;
+    padding:8px 0px;
+    text-align:right;
+    font-size:16px;
+    font-family:arial;
+    font-weight:normal;
+    color:white;
+    outline:none;
+    border:none;
+    background:#a59e9e;
+    }
+    .btns{
+    position:relative;
+    width:100%;
+    padding:10px 10px;
+    }
+    .btns button{
+    width:50px;
+    height:50px;
+    font-size:30px;
+    color:#222;
+    border-radius:5px;
+    background:white;
+    margin:10px 5px;
+    display:inline-block;
+    }
+    button{
+    
+    border:none;
+    outline:none;
+    width:100px;
+    height:50px;
+    font-size:20px;
+    color:#222;
+    border-radius:5px;
+    background:white;
+    margin:10px 5px;
+    
+    }

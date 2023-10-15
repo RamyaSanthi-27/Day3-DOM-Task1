@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calsi">
+        <h1 id="title"><p id="description">Calculator</p></h1>
+        <input type="text" id="result" placeholder="Enter Value..." readonly="">
+        <div class="btns">
+        <button id="0" onclick="add(0)">0</button>
+        <button id="1" onclick="add(1)">1</button>
+        <button id="2" onclick="add(2)">2</button>
+        <button id="3" onclick="add(3)">3</button>
+        <button id="4" onclick="add(4)">4</button>
+        <button id="5" onclick="add(5)">5</button>
+        <button id="6" onclick="add(6)">6</button>
+        <button id="7" onclick="add(7)">7</button>
+        <button id="8" onclick="add(8)">8</button>
+        <button id="9" onclick="add(9)">9</button>
+        <button id="add" onclick="add('+')">+</button>
+        <button id="subtract"onclick="add('-')">-</button>
+        <button id="division" onclick="add('/')">/</button>
+        <button id="multipilication" onclick="add('*')">*</button>
+        </div>
+        <button id="equal" onclick="exe()">=</button>
+        <button id="cancel" onclick="cancel()">⌫</button>
+        <button id="clear"onclick="cls()">c</button>
+        </div>
+    <script src="script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>
